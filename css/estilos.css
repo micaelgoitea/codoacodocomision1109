@@ -2,10 +2,51 @@
     Estructura Css
     Estructura {
         Propiedad: Valor
+    }
 */
 body {
-    background-color: rgba(247, 222, 84, 0.836);
+    background-color: bisque;
 }
-h1, h2{
+h1, h2, h3{
     text-align: center;
+}
+header{
+    background-image: url(/img/Recetas\ Imagenes.png);
+    height: 400px;
+}
+header h1{
+    background-color: rgb(255, 221, 180);
+    padding: 20px;
+    margin-top: 4%;
+}
+nav{
+    background-color: transparent;
+    height: 40px;
+    position: fixed;
+    top: 0px;
+    left: 400px;
+}
+nav ol li{
+    background-color: white;
+    display: inline;
+    color: honeydew;
+    padding: 15px;
+    margin: 0px 10px;
+}
+article{
+    padding-top: 50px;
+    background: linear-gradient(rgba(255, 255, 0, 0.562), rgba(255, 166, 0, 0.582));
+    width: 80%;
+    margin-left: 10%;
+}
+
+nav ol li a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav ol li:hover {
+    background-color: orange;
+    color: black;
+    box-shadow: 5px 3px 5px black;
 }
